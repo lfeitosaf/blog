@@ -1,0 +1,94 @@
+/* Cabeçalho do site */
+header {
+    height: 100px;
+    background-color: #ADD8E6;
+}
+
+.headerint{
+    margin:0 auto;
+    height: 52px;
+    max-width: 1000px;
+    text-align:center;
+}
+
+nav{
+    border: #353535 solid 1px;
+    margin-top: 15px;
+    height: 35px;
+}
+
+.nav{
+    height: 35px;
+    max-width: 1580px;
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 800px;
+}
+
+.navv > ul > li{
+    display: inline-block;
+    padding-left: 150px;
+    font-size: 25px;
+}
+
+.navv > ul{
+    text-align: left;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+
+/*Corpo do site*/
+
+main{ 
+    background-color: azure;
+
+}
+
+.produto-item{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.produto-item2{
+    font-size: 20px;
+    margin-top: -335px;
+    display: inline-block;
+    float: right;
+    margin-right: 60px;
+}
+.produto-item3{
+  font-size: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.produto-item4{
+    font-size: 20px;
+    margin-top: -335px;
+    display: inline-block;
+    float: right;
+    margin-right: 60px;
+}
+
+
+/* Rodapé do site*/
+
+
+footer{
+    height: 50px;
+    background-color: #ADD8E6;
+}
+
+.footerint{
+    max-width: 1000px;
+    color: white;
+    margin:0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

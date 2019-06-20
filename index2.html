@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rataria</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="dbfake.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="headerint">
+                <img src="rato.png" width = "100px" height = "auto">
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div class="nav">
+                <div class="navv">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Roedores</li>
+                        <li>Sobre Nós</li>
+                        <li>Contato</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="lista-produtos"></div>
+        <div id="lista-produtos2"></div>
+        <div id="lista-produtos3"></div>
+        <div id="lista-produtos4"></div>
+
+    </main>
+
+    <footer>
+        <div class="footerint">
+            Copyright 2019
+        </div>
+    </footer>
+
+    <script>
+        var prods = '';
+        for (i = 0; i < db.dados.length; i++) {
+            prods += `<p class="produto-item"> ${db.dados[i].titulo} <br> <img width="800px" border= "1px black solid"; src="${db.dados[i].imagem}"></p> </br> <p class="produto-item2"> ${db.dados[i].descrição} </p> `;
+        }
+        document.getElementById('lista-produtos').innerHTML = prods;
+    </script>
+
+<div id="HCB_comment_box">Carregando comnetários... Comment Box by <a href="http://www.lightstargames.weebly.com">Light Star Games</a></div>
+<link rel="stylesheet" type="text/css" href="http://www.htmlcommentbox.com/static/skins/shady/skin.css" />
+<script type="text/javascript" language="javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={  };} (function(){s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src", "http://www.htmlcommentbox.com/jread?page="+escape((window.hcb_user && hcb_user.PAGE)||(""+window.location)).replace("+","%2B")+"&opts=278&num=25");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); hcb_user.submit="";/*-->*/ </script>
+
+</body>
+
+</html>
+
